@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="index.css" />
@@ -23,7 +23,6 @@
                             <div class="name">Alex Horodnic</div>
                             <div>Junior Developer</div><br />
                             <div class="info">
-                                I am 22 years old and I study Computer Science at New York College in Athens.<br /><br />
                                 This is the first website that I am officially hosting on the Internet and the reason behind this idea
                                 is that I want to show some of my work through the years as a student.<br />
                             </div>
@@ -31,7 +30,7 @@
                                 <div class="col-md-12">
                                     <a href="https://github.com/AlexHorodnic" target="_blank"><i class="fab fa-github"></i></a>
                                     <a href="https://www.linkedin.com/in/alex-horodnic/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="RESUME.pdf" class="resume" target="_blank" download="AlexHorodnic-Resume.pdf"><i class="far fa-arrow-alt-circle-down"></i>My Resume</a>
+                                    <a href="RESUME.pdf" class="resume" target="_blank"><i class="far fa-arrow-alt-circle-down"></i>My Resume</a>
                                 </div>
                             </div>
                         </div>
@@ -52,126 +51,7 @@
     <script src="particles.js"></script>
     <!--Particles Configuration-->
     <script>
-        var partJson = {
-            particles: {
-                number: {
-                    value: 50,
-                    density: {
-                        enable: true,
-                        value_area: 800,
-                    },
-                },
-                color: {
-                    value: "#ffffff",
-                },
-                shape: {
-                    type: "circle",
-                    stroke: {
-                        width: 0,
-                        color: "#000000",
-                    },
-                    polygon: {
-                        nb_sides: 5,
-                    },
-                    image: {
-                        src: "img/github.svg",
-                        width: 100,
-                        height: 100,
-                    },
-                },
-                opacity: {
-                    value: 1,
-                    random: false,
-                    anim: {
-                        enable: false,
-                        speed: 1,
-                        opacity_min: 0.1,
-                        sync: false,
-                    },
-                },
-                size: {
-                    value: 2,
-                    random: true,
-                    anim: {
-                        enable: false,
-                        speed: 40,
-                        size_min: 0.1,
-                        sync: false,
-                    },
-                },
-                line_linked: {
-                    enable: true,
-                    distance: 190,
-                    color: "#840000",
-                    opacity: 1,
-                    width: 1,
-                },
-                move: {
-                    enable: true,
-                    speed: 2,
-                    direction: "top-left",
-                    random: false,
-                    straight: false,
-                    out_mode: "out",
-                    attract: {
-                        enable: false,
-                        rotateX: 600,
-                        rotateY: 1200,
-                    },
-                },
-            },
-            interactivity: {
-                detect_on: "canvas",
-                events: {
-                    onhover: {
-                        enable: true,
-                        mode: "grab",
-                    },
-                    onclick: {
-                        enable: false,
-                        mode: "repulse",
-                    },
-                    resize: true,
-                },
-                modes: {
-                    grab: {
-                        distance: 200,
-                        line_linked: {
-                            opacity: 5,
-                        },
-                    },
-                    bubble: {
-                        distance: 400,
-                        size: 40,
-                        duration: 2,
-                        opacity: 8,
-                        speed: 3,
-                    },
-                    repulse: {
-                        distance: 400,
-                    },
-                    push: {
-                        particles_nb: 4,
-                    },
-                    remove: {
-                        particles_nb: 2,
-                    },
-                },
-            },
-            retina_detect: true,
-            config_demo: {
-                hide_card: false,
-                background_color: "#b61924",
-                background_image: "",
-                background_position: "50% 50%",
-                background_repeat: "no-repeat",
-                background_size: "cover",
-            },
-        };
-        var jsonUri =
-            "data:text/plain;base64," +
-            window.btoa(JSON.stringify(partJson));
-        particlesJS.load("particles-js", jsonUri, function () {
+        particlesJS.load("particles-js", "particles.json", function () {
             console.log("particles.json loaded...do your thing!");
         });
     </script>

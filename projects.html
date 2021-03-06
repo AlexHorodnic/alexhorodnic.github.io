@@ -1,13 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/8891f6df96.js" crossorigin="anonymous"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-    </style>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');</style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link href="projects.css" rel="stylesheet" />
     <title>Alex Horodnic</title>
@@ -15,26 +13,21 @@
 </head>
 
 <body>
-    <!---------------------------------------------------------------- HEADER --------------------------------------------------------------------->
     <div class="container-fluid sticky-top" >
         <div class="row row1">
             <div class="col-md-2 col-sm-12 my-auto"style="background-color: rgba(162, 0, 80, 0.4); ">
                 <a href="index.html" class="logo">alexhorodnic.com</a>
             </div>
-            <div class="col-md-8 col-sm-12 my-auto">
+            <div class="col-md-10 col-sm-12 my-auto">
                 <a href="projects.html">Projects</a>
                 <a style="margin-left:20px;" href="about.html">About</a>
                 <a style="margin-left:20px;" href="contact.html">Contact</a>
-            </div>
-            <div class="col-md-2 col-sm-12 my-auto">
                 <a id="github" href="https://github.com/AlexHorodnic" target="_blank"><i class="fab fa-github"></i></a>
                 <a id="linkedin" href="https://www.linkedin.com/in/alex-horodnic/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
     </div>
     <div class="container">
-        <!---------------------------------------------------------------- MAIN CONTENT --------------------------------------------------------------------->
-
         <div class="row row2">
             <div class="col-md-2">
                 <nav aria-label="breadcrumb">
@@ -56,19 +49,19 @@
                 </div>
 
                 <div style="font-size:18px; padding-top: 30px; margin-left:15px; margin-bottom:15px;">
-                    The Concept of this project is to try and visualize what a standard website of the city would look like
-                    with some modifications to it's design and capabilities. In this case, I decided to take a minimalistic approach
+                    The concept of this project is to try and visualize what a standard website of the city would look like
+                    with some modifications to its design and capabilities. In this case, I decided to take a minimalistic approach
                     with a design idea that is simple and on point.
                 </div>
                 <div class="row rowfeatures">
                     <div class="col-md-12 my-auto">
                         <span>FEATURES</span>
-                        <div style="padding-top: 10px; margin-left:15px;">Photo and Video preview | Contact Form | Subscribtion Method</div>
+                        <div style="padding-top: 10px; margin-left:15px;">Photo and Video preview | Contact Form | Subscription Method</div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 my-auto">
-                <img id="myImg" alt="The Municipality of Lamia" class="img-fluid" src="img/projects/Screenshot_1.png" />
+                <img id="myImg1" alt="The Municipality of Lamia" class="img-fluid images" src="img/projects/1.gif" />
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
                     <img class="modal-content" id="img01">
@@ -85,21 +78,67 @@
         </div>
         <div class="row redrow"></div>
 
+        <div class="row row4">
+            <div class="col-md-6">
+
+                <div style="font-size:20px; margin-left:15px; margin-bottom: 10px;">Friends and Contacts Platform | School Project</div>
+                <div class="row categories">
+                    <div class="col-md-12">
+                        <span>#HTML</span><span> #CSS</span><span> #BOOTSTRAP</span>
+                    </div>
+                </div>
+
+                <div style="font-size:18px; padding-top: 30px; margin-left:15px; margin-bottom:15px;">
+                    A platform that can help people stay in touch by allowing them to create a profile and update their information.
+                    This is a place for friends and famillies that want to have an easy time contacting their relatives.
+                </div>
+                <div class="row rowfeatures">
+                    <div class="col-md-12 my-auto">
+                        <span>FEATURES</span>
+                        <div style="padding-top: 10px; margin-left:15px;">Login / Register Form | Responsive Design</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 my-auto">
+                <img id="myImg2" alt="The Municipality of Lamia" class="img-fluid images" src="img/projects/2.gif" />
+                <div id="myModal1" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img02">
+                    <div id="caption"></div>
+                </div>
+                <div class="row" style="height:70px; text-align:center;">
+                    <div class="col-md-12 my-auto">
+                        <a class="demo" target="_blank" href="projects/friendscontacts/index.html"><i class="fas fa-eye"></i> DEMO</a>
+                        <a class="demo" target="_blank" href="https://github.com/AlexHorodnic/FriendsContacts"><i class="fas fa-code"></i> CODE</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="row redrow"></div>
         <script>
             // Get the modal
             var modal = document.getElementById("myModal");
 
             // Get the image and insert it inside the modal - use its "alt" text as a caption
-            var img = document.getElementById("myImg");
+            var img1 = document.getElementById("myImg1");
+            var img2 = document.getElementById("myImg2");
             var modalImg = document.getElementById("img01");
-            var captionText = document.getElementById("caption");
-            img.onclick = function () {
+            var captionText = document.getElementById("caption");            
+            img1.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+            img2.onclick = function () {
                 modal.style.display = "block";
                 modalImg.src = this.src;
                 captionText.innerHTML = this.alt;
             }
 
-            // Get the <span> element that closes the modal
+
             var span = document.getElementsByClassName("close")[0];
 
             // When the user clicks on <span> (x), close the modal
