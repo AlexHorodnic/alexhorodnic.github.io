@@ -12,7 +12,7 @@ a, a:active, a:visited, a:focus {
 
 }
 a:hover {
-    color: darkred;
+    color: black;
     text-decoration: none;
     transition: color 0.5s;
 }
@@ -25,7 +25,7 @@ a:hover {
     height: 2px;
 }
 .row1 {
-    background-image: linear-gradient(-45deg, #430202, black);
+    background-image: linear-gradient(-45deg, #3a0000, rgb(100, 0, 0));
     height: 100px;
     font-size: 30px;
     color: white;
@@ -42,9 +42,8 @@ a:hover {
 #linkedin{
     margin-left: 220px;
 }
-/* ------------------------------------- FOOTER ------------------------------------- */
 #footer {
-    background-image: linear-gradient(-45deg, #430202, black);
+    background-image: linear-gradient(-45deg, #3a0000, rgb(100, 0, 0));
     padding-top: 25px;
     background-color: darkred;
     text-align: center;
@@ -71,14 +70,12 @@ a:hover {
         height: 700px;
     }
     .row1 {
-        background-image: linear-gradient(-45deg, #430202, black);
         height: 150px;
         font-size: 24px;
         color: white;
         text-align: center;
     }
     #footer {
-        background-image: linear-gradient(-45deg, #430202, black);
         padding-top: 25px;
         background-color: darkred;
         text-align: center;

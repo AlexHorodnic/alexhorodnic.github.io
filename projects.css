@@ -15,7 +15,7 @@ a, a:active, a:visited, a:focus {
 
 }
 a:hover {
-    color: darkred;
+    color: black;
     text-decoration: none;
     transition: color 0.5s;
 }
@@ -32,14 +32,14 @@ a:hover {
 .container {
     background-color: #1e1e1e;
     color: white;
-    height: 1200px;
+    height: 1100px;
 }
 .redrow{
     background-color:darkred;
     height: 2px;
 }
 .row1 {
-    background-image: linear-gradient(-45deg, #430202, black);
+    background-image: linear-gradient(-45deg, #3a0000, rgb(100, 0, 0));
     height: 100px;
     font-size: 30px;
     color: white;
@@ -57,7 +57,7 @@ a:hover {
 }
 span{
     padding: 5px;
-    background-color:darkred;
+    background-color:rgb(117, 0, 0);
     margin-left: 15px;
 }
 #github, #linkedin {
@@ -67,9 +67,8 @@ span{
 #linkedin{
     margin-left: 220px;
 }
-/* ------------------------------------- FOOTER ------------------------------------- */
 #footer {
-    background-image: linear-gradient(-45deg, #430202, black);
+    background-image: linear-gradient(-45deg, #3a0000, rgb(100, 0, 0));
     padding-top: 25px;
     background-color: darkred;
     text-align: center;
@@ -177,7 +176,6 @@ span{
         height: 1600px;
     }
     .row1 {
-        background-image: linear-gradient(-45deg, #430202, black);
         height: 150px;
         font-size: 24px;
         color: white;
@@ -194,7 +192,6 @@ span{
         height: 110px;
     }
     #footer {
-        background-image: linear-gradient(-45deg, #430202, black);
         padding-top: 25px;
         background-color: darkred;
         text-align: center;
